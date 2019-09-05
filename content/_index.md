@@ -2,8 +2,14 @@
 title: Home
 ---
 
-[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-ivy)
+琉璃是佛教神話裏的一種寶石，它當然是不碎的。  
+人不可能擁有真正的琉璃，於是設法用礦石燒製，於是有晶瑩輝煌的琉璃瓦。  
+琉璃瓦離「琉璃」很遠，「琉璃燈」離琉璃更遠，裝在琉璃燈上的罩子原是幾片有色玻璃。  
+至於「琉璃河」，日夜流去的都是尋常淡水，那就離「琉璃」更遠了。　　
 
-This Hugo theme was ported from [Ivy](https://github.com/dmulholland/ivy), a minimalist website generator built in Python. I don't have time to document it. You have to read the source code to understand what it can do. Like Ivy, this theme is also released under [the Unlicense](https://en.wikipedia.org/wiki/Unlicense), which basically means you just do whatever you want.
+生活，我本來以為是琉璃，其實是琉璃瓦。  
+生活，我本來以為是琉璃瓦，其實是玻璃。  
+生活，我本來以為是玻璃，其實是一河閃爍的波光。  
+生活，我終於發覺它是琉璃，是碎了的琉璃。
 
-All pages not under the root directory of the website are listed below. You can also visit the list page of a single section, e.g., [posts](/post/), or [notes](/note/).
+——《碎琉璃》，王鼎钧

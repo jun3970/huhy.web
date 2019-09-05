@@ -1,9 +1,20 @@
 ---
-author: Yihui Xie
-date: "2017-08-06"
-title: About Hugo Ivy
+author: Hongyu Hu
+date: "2019-09-05"
+title: 个人陈述
 ---
 
-This Hugo theme was ported from [Ivy](https://github.com/dmulholland/ivy), a minimalist website generator built in Python. I don't have time to document this theme. You have to read the source code to understand what it can do. All I can say for now is that I love it. It is clean, minimal, and responsive.
+男，汉，中间存有一“子”。  
 
-I hope you will enjoy this theme. The source code is [on Github](https://github.com/yihui/hugo-ivy). Happy hacking!
+1995年就蹦到了地球，至今搞不懂活着是为了个啥。
+
+一生最爱的人是我妈妈，其他人士都要靠边站。
+若您自讨没趣问我两人同时落水问题，我肯定也不识抬举地回答——我爱我妈。
+
+爱好，观摩岛国动作片算不算？
+因此俺非常痛恨 Japanese wowen（注意，是复数！），干啥不直接来大陆开演唱会？
+这机会成本得多大！当然更痛恨屏幕上摇晃的马赛克！！！
+同是亚洲人，就不能考虑考虑西边人民的观影感受? 就问啥时候能带上字幕吧。
+
+以上戏言为真。
+
