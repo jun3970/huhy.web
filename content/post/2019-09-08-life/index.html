@@ -1,0 +1,65 @@
+---
+title: 学而不思
+author: Hongyu Hu
+date: '2019-09-06'
+slug: thinking before practice
+categories:
+  - daily
+tags: []
+subtitle: '暑假幻灭记'
+summary: ''
+authors: []
+lastmod: '2019-09-06T15:58:14+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: 'center'
+  preview_only: no
+projects: []
+---
+
+
+
+<p><img src="287395.png" /></p>
+<p>本学期八月二十六号开学，至今已有十天。
+日常依旧平淡，与暑假留校一个人琢磨 <code>Tidyserve</code> 和 <code>Git</code> 无甚两样。</p>
+<p>在开学之初我给谢导发了邮件，内容为以下几条：</p>
+<ol style="list-style-type: decimal">
+<li><p>CAR(time series)的解释变量我仍无特定思路。季度性企业财报或是企业年报我都简略查阅了，并无daily data类型财务数据。Google scholar上可查阅到的既定思路有</p>
+<ol style="list-style-type: lower-roman">
+<li><p>关注beta的estimation bias，经典文献有AER的一篇‘Good beta, bad beta’，解释思路靠近我上学期结束时汇报的折现率与现金流的想法。但于我们，似乎技术和数据都不太可行，额，我已经忘了咋回事，您教诲的是，得好好做阅读笔记。文章请见附件</p></li>
+<li><p>关注alpha的显著性。大多为就某一事件或海量交易数据做量化投资策略。请见附件 ’Empirical Asset Pricing via Machine Learning‘ 与 ’Thousands of Alpha Tests‘</p></li>
+</ol></li>
+<li><p>su(2016) code撰写者是zhentao shi，其将详细说明挂在了https://github.com/zhentaoshi/C-Lasso。他在该页面上强调了在MATLAB中调用Mosek包是可选项，执行时去掉该调用命令仍不影响结果，但运算速度会下降。我进一步发现其学生Zhan Gao将其转写为了R，项目地址为https://github.com/zhan-gao/classo</p></li>
+<li><p>附上一个factor-list，from: Harvey, C. R., Liu, Y., &amp; Zhu, H. (2016). … and the cross-section of expected returns. RFS.</p></li>
+<li><p>我对我上学期写的code (R)做了重写，实现了CAPM、FF-3、FF-5模型的自动化，财报发布多个季度的向量化输入与输出。</p></li>
+<li><p>学了git版本管理，并将上述code挂到了github上，地址: <a href="https://github.com/jun3970/QEA/tree/onestep" class="uri">https://github.com/jun3970/QEA/tree/onestep</a> ，我计划将接下来两年要写的TeX代码也挂到我的GitHub主页，方便您批阅与直接修改。</p></li>
+<li><p>我之前提交的《经济学研究方法论》课程作业，我知道太糟糕了，完全不成体例，您就给个及格分吧。低分才能长教训。</p></li>
+<li><p>卸了Ubuntu，玩了一些天CentOS。考虑到Linux的主要优势是系统维护和网站运营，而我主要任务是数据建模与分析。即使就shell来说，Windows平台下也有PowerShell，而且今年还上线了WSL和Windows Terminal，包管理也有Chocolatey，钱多就是大势啊(github都被MS收购了，哎)。因此打算对Linux弃疗了，给自己省点功夫，烦闷时上手Vim，玩玩PowerShell就够了……</p></li>
+</ol>
+<p>从上述内容可知我这暑假是付之东流了。
+开学后，我同谢老师就我之前的选题讨论了两次，
+两次皆是他在摇头，而我一个劲儿地点头做哈，以消尴尬。
+”上市企业财报发布期间其自身股价的异常走势“这个题目是去年11月份谢老师给的我，
+<em>asset pricing</em> 的文献浩如烟海，计量方法在更早的10月就确定了下来，
+源自 <em>Econometrica</em> 上的 <a href="https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA12560">su et al (2016)</a>，
+并且炮制文中结果的 code 也被作者 push 到了 <a href="https://github.com/zhentaoshi/C-Lasso">Github</a>。
+按理说做起这个实证来应顺风顺水，
+但现实是我拖沓了一年，那二十页纸仍是沙漠中的海市蜃楼！
+文献像模像样找了两百四十来篇，软件玩了一大堆，
+但对交易数据中的异常报酬 <span class="math inline">\(\alpha\)</span> 我仍丈二和尚摸不着头脑，不知道对其机制作何解释。
+忽悠同学听我报告，似像那么回事，但我师生二人皆心知肚明我一年来干了个鬼……</p>
+<p>昨日下午谢老师不无委婉地警告我说，”不要再拿着枪虚晃了，你连你目标在哪儿都不清楚，已经完全lost在文献中了！“ 是的，自从去年12月以来，当我在过往文献中找不到成果可以直接 copy 时，我便以更多的擦边文献来对付每周的师生研讨会，甚至借琢磨软件和阅读小说来逃避，
+2019年的几期《收获》与《当代》被我翻了个遍。
+其实我从小到大一直如此，把自己的大脑当作存储硬盘来使，欣欣然于自己的不求甚解。</p>
+<p>我本科学校图书馆三楼的一个会议室（定期被用作举办读书会、小型讲座）西面墙壁上挂有一幅字，</p>
+<blockquote>
+<p>从来多古意，可以赋新诗。<br />
+——杜甫《兖州行纪之三》</p>
+</blockquote>
+<p>还有一句忘了从哪儿瞟来的”格言“，</p>
+<blockquote>
+<p>Seeing what everybody has seen and thinking what nobody has thought.<br />
+——Albert Szent—GyÖrgyi</p>
+</blockquote>
+<p>”书山“愈加崎岖与高耸，路径从古至今却没变过。愿我的脑子还没完全锈掉。</p>
