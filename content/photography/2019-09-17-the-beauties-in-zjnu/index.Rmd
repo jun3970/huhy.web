@@ -1,0 +1,29 @@
+---
+title: 浙师大启明湖昆虫秀
+author: Hongyu Hu
+date: '2016-05-28'
+slug: the-beauties-in-zjnu
+categories: []
+tags:
+  - Insect
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-17T20:36:40+08:00'
+featured: no
+image:
+  caption: '胡弘宇摄 2016/05/28'
+  focal_point: ''
+  preview_only: true
+projects: []
+---
+
+![](HHY_0477.jpg)
+
+![](HHY_0534.jpg)
+
+![](HHY_0520.jpg)
+
+![](HHY_0515.jpg)
+
+![](HHY_0540.jpg)

@@ -1,0 +1,21 @@
+---
+title: 沉睡在绿皮火车上
+author: Hongyu Hu
+date: '2019-09-17'
+slug: sleeping-girl-in-the-train
+categories: []
+tags:
+  - Portrait
+subtitle: ''
+summary: '2017年寒假放假回家，春运火车上的一瞥。'
+authors: []
+lastmod: '2019-09-17T22:47:07+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: true
+projects: []
+---
+
+![](HHY_3537.jpg)

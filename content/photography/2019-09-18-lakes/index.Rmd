@@ -1,0 +1,26 @@
+---
+title: 浙师大校园内最靓的三姐妹
+author: Hongyu Hu
+date: '2016-04-04'
+slug: lakes
+categories: []
+tags:
+  - Landscape
+subtitle: ''
+summary: '心事萦绕，湖边走走'
+authors: []
+lastmod: '2019-09-18T00:04:43+08:00'
+featured: no
+image:
+  caption: '胡弘宇摄 2016/04/04'
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+![初阳湖](HHY_0002-chuyang.jpg)
+
+![启明湖](HHY_9981-qiming.jpg)
+
+![新月湖](HHY_0037-xinyue.jpg)
+
