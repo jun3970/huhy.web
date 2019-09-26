@@ -1,0 +1,133 @@
+\documentclass[
+11pt,
+ignorenonframetext,
+]{beamer}
+\usetheme[]{Singapore}
+\usecolortheme{default}
+\usefonttheme[stillsansseriflarge,stillsansserifsmall]{serif}
+
+
+
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-2}
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+    \leavevmode%
+    \hbox{%
+        \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=2ex,center]{author in head/foot}%
+            \usebeamerfont{author in head/foot}%
+            \insertshortauthor\hspace{1em}\beamer@ifempty{\insertshortinstitute}{}{(\insertshortinstitute)}
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=2ex,center]{title in head/foot}%
+            \usebeamerfont{title in head/foot}\insertshorttitle
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.2\paperwidth,ht=2.25ex,dp=2ex,right]{date in head/foot}%
+            \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+            \insertframenumber{}/\inserttotalframenumber\hspace*{2ex}
+    \end{beamercolorbox}}%
+    \vskip0pt%
+}
+\makeatother
+
+
+\usepackage{tikz,tcolorbox}
+\usetikzlibrary{shapes,calc}
+\tcbuselibrary{skins}
+\definecolor{myblue}{rgb}{0.15,0.15,0.53}
+
+\makeatletter
+
+\newtcbox{\titlebox}{
+    enhanced,
+    overlay={
+        \draw[myblue,fill=myblue](frame.south east)--+(0,.2)to[bend right]+(.2,-0)--cycle;},
+    colback=myblue,
+    top=-1pt,bottom=-2pt,left=2pt,right=2pt,
+    boxrule=1pt,
+    colframe=myblue,
+    sharp corners=south,
+    colupper=white,
+    fontupper=\bfseries
+}
+
+\newtcolorbox{myblock}[1][]{
+    enhanced,
+    left=2pt,
+    right=2pt,
+    colframe=myblue,
+    boxrule=1pt,
+    colback=blue!10,
+    overlay={
+        \def\myblock@tempa{#1}
+        \ifx\myblock@tempa\@empty
+        \else
+        \draw[myblue,fill=myblue]($(frame.north west)+(.2pt,-.2pt)$)--+(.1,0)to[bend right]+(-0,-.1)--cycle;
+        \node [
+        anchor=south west,
+        inner sep=0pt,
+        outer sep=0pt
+        ]at(frame.north west){\titlebox{#1}};
+        \fi
+    },
+}
+\makeatother
+
+
+
+%% 首行缩进
+\usepackage{indentfirst}
+%\setlength{\parindent}{2.8em}
+%% 设置段落间隔
+\setlength{\parskip}{0.7\baselineskip}
+%% 行间距为20pt
+\setlength{\baselineskip}{20pt}
+
+
+
+\setbeamertemplate{section in toc}{%
+    {\color{orange!70!black}\inserttocsectionnumber.}~\inserttocsection}
+\setbeamercolor{subsection in toc}{bg=white,fg=structure}
+\setbeamertemplate{subsection in toc}{%
+    \hspace{1.2em}{\color{orange}\rule[0.3ex]{3pt}{3pt}}~\inserttocsubsection\par}
+
+
+\setbeamerfont{myTOC}{series=\bfseries,size=\large}
+\AtBeginSection[]{\frame{\frametitle{\huge Outline}%
+        \usebeamerfont{myTOC}\tableofcontents[currentsection]}}
+\setbeamertemplate{navigation symbols}{}
+
+
+
+\title[huhy.rbind.io]{My First Beamer}
+\subtitle{Hello, Beamer!}
+\author[\parbox{.1\paperwidth}{\raggedleft   huhy \\ jun3970 }]{Hongyu Hu}
+\institute[JNU]{Jinan University}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\end{document}
